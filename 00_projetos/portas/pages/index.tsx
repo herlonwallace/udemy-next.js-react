@@ -1,9 +1,12 @@
-import Presente from "../components/Presente"
+import Porta from "../components/Porta"
 
 export default function Home() {
   return (
-    <>
-      <Presente />     
-    </>
+    <div style={{display: "flex"}}>
+      <Porta />
+      <Porta /> 
+      <Porta /> 
+      <Porta />     
+    </div>
   )
 }
